@@ -4,6 +4,8 @@
 
     --bg-gray: #ddd;
     --color-primary: blueviolet;
+    --text-gray: #4a4a4a;
+
 
 
 }
@@ -66,5 +68,51 @@ a, a:hover {
 
 .mymovie-contact-container img{
     margin: 10px;
+
+}
+
+#mymovie-card-list{
+    padding: 40px;
+
+}
+
+.mymovie-card{
+    width: 360px;
+    
+
+}
+
+.mymovie-card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.mymovie-card-description{
+    background-color: azure;
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+} 
+
+.mymovie-card-description h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.mymovie-btn, .mymovie-btn:hover{
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: azure;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    
     
 }
