@@ -31,14 +31,39 @@
 
     <section id="mymovie-form-section">
 
-      <div  class="conteiner mymovie-form-container">
+      <div class=" container mymovie-form-container">
 
         <div>
           <div class="mymovie-card">
             <img src="https://www.themoviedb.org/t/p/original/f5F4cRhQdUbyVbB5lTNCwUzD6BP.jpg" alt="Coringa (2019)">
-            <div class="mymovie-card-description">
+            <div class="mymovie-form-description">
               <h3>Coringa (2019)</h3>
-              <a class="mymovie-btn" href="index.html">Cancelar</a>
+
+              <form class="mymovie-form">
+
+                <div class="form-group mymovie-form-group">
+                  <label for="email">Informe seu email</label>
+                  <input class="form-control" type="email" id="email">
+                </div>
+
+                <div class="form-group mymovie-form-group">
+                  <label for="score">Informe sua avaliação</label>
+                  <select class="form-control" name="score" id="score">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+
+                <div class="mymovie-form-btn-container">
+                  <button class="mymovie-btn" type="submit">Salvar</button>
+                  <a class="mymovie-btn" href="index.html">Cancelar</a>
+                </div>
+
+              </form>
+
             </div>
           </div>
         </div>
