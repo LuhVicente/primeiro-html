@@ -5,7 +5,7 @@
     --bg-gray: #ddd;
     --color-primary: hsl(271, 76%, 53%);
     --text-gray: #4a4a4a;
-    --texr-light-gray: #aaa;
+    --text-light-gray: #aaa;
     --star-yellow: #FFBB3A;
 
 
@@ -73,7 +73,7 @@ a, a:hover {
 }
 
 #mymovie-card-list{
-    padding: 40px 10px;
+    padding: 0px 10px;
 
 }
 
@@ -122,7 +122,7 @@ a, a:hover {
 .mymovie-card-description-bottom p{
     font-size: 12px;
     font-weight: 400;
-    color: var(--texr-light-gray);
+    color: var(--text-light-gray);
     margin-bottom: 10px;
 }
     
@@ -181,7 +181,7 @@ a, a:hover {
 
 .mymovie-form-group label{
     font-size: 12px;
-    color: var(--texr-light-gray);
+    color: var(--text-light-gray);
     
     
     
@@ -194,4 +194,44 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
   
+}
+
+.mymovie-pagination-container{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.mymovie-pagination-box{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mymovie-pagination-box p{
+margin: 0;
+font-size: 12px;
+color: var(--color-primary);
+font-weight: 400;
+}
+
+.mymovie-pagination-box button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mymovie-pagination-box button:disabled{
+    border: 1px solid var(--text-light-gray);
+}
+
+.mymovie-flip-horizontal{
+    transform: rotate(180deg);
 }
